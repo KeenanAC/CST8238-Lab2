@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 2</title>
+</head>
+<body>
+    <h1>Fundamentals of Web Development</h1>
+    <p><em>By Randy Connolly and Ricardo Hoar</em></p>
+
+    <a href = "cover-large.png" > <img src="cover-small.png" height="301" width="243" alt=""/> </a>
+
+    <p>This textbook covers a broad range of topics required for modern web development</p>
+
+    <p><a href = "" >Learn More</a></p>
+
+    <h2>First Chapters</h2>
+
+    <ol>
+        <li>Introduction to Web Development</li>
+        <li>How the Web Works</li>
+        <li>Introduction to HTML</li>
+        <li>Introduction to CSS</li>
+    </ol>
+
+    <h1>Elements of HTML</h1>
+
+    <ol>
+        <li><b>Meter Element</b></li>
+            <meter value = "1000" min="0" max="1000"> 1000</meter>
+            <meter value = "1000" min="0" max="2000"> 1000</meter>
+            <meter value = "1000" min="0" max="5000"> 1000</meter>
+<hr>
+        <li><b>Progress Element</b></li>
+            <progress value="75" max="100"></progress>
+<hr>
+        <li><b>Datalist Control</b></li>
+            <label for ="Fruit">Fruit</label>
+            <input type = "text" name = "Fruit" id = "Fruit" list="Fruits"/>
+            <datalist id="Fruits">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Cherry">Cherry</option>
+                <option value="Grape">Grape</option>
+            </datalist>
+<hr>
+        <li><b>Slider Control</b></li>
+            <label for ="Slider">Express how hungry you are between 1 and 10:</label><br>
+            Low<input type="range" name = "Slider" id= "slider" min="1" max="100">High
+<hr>
+        <li><b>Calendar Control</b></li>
+            <label for ="myDate"> What day?</label>
+            <input type = "date" name = "myDate" id = "myDate">
+        <li><b>Anchor Element</b></li>
+            a)<b>Absolute link</b><br>
+                <dd>Link to a different website: <a href="https://google.ca">google.ca</a></dd>
+            <br>
+            b)<b>Relative link</b><br>
+                <dd>Link to a different page on the same website: <a href=""> Lab1</a></dd>
+            <br>
+            c)<b>E-mail hyperlink</b><br>
+                <dd>Link to mail program connected with browser or a message is displayed: <a href="mailto:myemail@somemail.com">myemail@somemail.com </a></dd>
+    </ol>
+
+</body>
+</html>
